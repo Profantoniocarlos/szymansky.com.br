@@ -71,7 +71,7 @@ body {
 
 .dropdown-content li a {
     display: block;
-    padding: 10px;
+    padding: 5px;
     color: blue;
     text-decoration: none;
 }
