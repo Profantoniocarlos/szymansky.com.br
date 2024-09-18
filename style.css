@@ -35,7 +35,7 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: blue;
+    color: rgb(0, 0, 95);
     font-weight: bold;
     padding: 10px 15px;
     transition: background-color 0.3s, color 0.3s;
@@ -72,7 +72,7 @@ body {
 .dropdown-content li a {
     display: block;
     padding: 10px;
-    color: rgb(0, 148, 254);
+    color: rgb(0, 0, 95);
     text-decoration: none;
 }
 
