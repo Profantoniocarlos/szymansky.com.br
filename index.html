@@ -8,45 +8,45 @@
 </head>
 <body>
 
-<div class="container"></div>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="logo.png" alt="Logo">
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="Logo">
+                </div>
+                <ul class="menu">
+                    <li><a href="https://profantoniocarlos.github.io/szymansky.com.br/" class="active">Home</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li class="dropdown">
+                        <a href="#">Cursos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="https://profantoniocarlos.github.io/szymansky.com.br/">Desenvolvimento de Sistemas</a></li>
+                            <li><a href="#">Formação de Docentes</a></li>
+                            <li><a href="#">Química para Empresas</a></li>
+                            <li><a href="#">Ensino Regular</a></li>
+                            <li><a href="#">Administração</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+                <div class="social-links">
+                    <img src="insta.png" href="https://www.instagram.com" target="_blank">
+                    <img src="face.png" href="https://www.facebook.com" target="_blank">
+                </div>
+            </nav>
+        </header>
+    
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="1.png" alt="Imagem 1">
+                <img src="2.png" alt="Imagem 2">
+                <img src="3.png" alt="Imagem 3">
             </div>
-            <ul class="menu">
-                <li><a href="https://profantoniocarlos.github.io/szymansky.com.br/" class="active">Home</a></li>
-                <li><a href="#">Quem Somos</a></li>
-                <li class="dropdown">
-                    <a href="#">Cursos</a>
-                    <ul class="dropdown-content">
-                        <li><a href="https://profantoniocarlos.github.io/szymansky.com.br/">Desenvolvimento de Sistemas</a></li>
-                        <li><a href="#">Formação de Docentes</a></li>
-                        <li><a href="#">Química para Empresas</a></li>
-                        <li><a href="#">Ensino Regular</a></li>
-                        <li><a href="#">Administração</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Contatos</a></li>
-            </ul>
-            <div class="social-links">
-                <img src="insta.png" href="https://www.instagram.com" target="_blank"></a>
-                <img src="face.png" href="https://www.facebook.com" target="_blank"></a>
-            </div>
-        </nav>
-    </header>
-    <div class="carousel">
-        <div class="carousel-images">
-            <img src="1.png" alt="Imagem 1">
-            <img src="2.png" alt="Imagem 2">
-            <img src="3.png" alt="Imagem 3">
+            <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <button class="next" onclick="moveCarousel(1)">&#10095;</button>
         </div>
-        <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
-        <button class="next" onclick="moveCarousel(1)">&#10095;</button>
     </div>
+    
     <script src="script.js"></script>
-
-</body>
-</html>
-
-
+    </body>
+    

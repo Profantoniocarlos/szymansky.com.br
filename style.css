@@ -9,14 +9,17 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    min-height: 100vh; /* Centraliza o conteúdo verticalmente */
     width: 100%; /* Garante que o container ocupe toda a largura */
+    min-height: 100vh;
+    padding: 20px;
 }
 
 /* Estilos da barra de navegação */
 .navbar {
+    width: 100%; /* Garante que a navbar ocupe a largura total */
+    max-width: 1200px; /* Opcional, define uma largura máxima para a navbar */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +54,6 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Cor ao passar o mouse e ao clicar */
 .menu a:hover {
     background-color: rgb(0, 148, 254);
     color: white;
@@ -66,20 +68,19 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 100%; /* Ajusta para descer corretamente a partir do botão */
+    top: 100%;
     left: 0;
     background-color: rgb(0, 148, 254);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     list-style: none;
     padding: 0;
     margin: 0;
-    z-index: 1000; /* Garante que o dropdown fique sobre outros elementos */
+    z-index: 1000;
 }
 
 .dropdown-content li {
     width: 200px;
 }
-
 
 .dropdown-content li a {
     display: block;
@@ -93,14 +94,12 @@ body {
     color: white;
 }
 
-
-/* Deixa o dropdown visível quando o mouse estiver sobre o elemento pai */
+/* Exibe o dropdown ao passar o mouse */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-
-/* Links das redes sociais */
+/* Redes sociais */
 .social-links {
     display: flex;
     gap: 10px;
@@ -115,21 +114,15 @@ body {
     transform: scale(1.1);
 }
 
-/* galeria - banner */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
+/* Galeria */
 .carousel {
     position: relative;
-    width: 60%;
-    max-width: 800px;
+    width: 100%; /* Garante que o carrossel ocupe a largura do container */
+    max-width: 800px; /* Limita a largura máxima */
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
 
 .carousel-images {
