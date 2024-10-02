@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh; /* Centraliza o conteúdo verticalmente */
+    width: 100%; /* Garante que o container ocupe toda a largura */
 }
 
 /* Estilos da barra de navegação */
