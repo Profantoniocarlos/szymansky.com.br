@@ -16,10 +16,13 @@ body {
     padding: 20px;
 }
 
-/* Estilos da barra de navegação */
-.navbar {
+.header {
     width: 100%; /* Garante que a navbar ocupe a largura total */
     max-width: 1920px; /* Opcional, define uma largura máxima para a navbar */
+}
+
+/* Estilos da barra de navegação */
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,8 +43,7 @@ body {
     gap: 20px;
     margin: 0;
     padding: 0;
-    width: 100%; /* Garante que a navbar ocupe a largura total */
-    max-width: 1920px; /* Opcional, define uma largura máxima para a navbar */
+   
 }
 
 .menu li {
