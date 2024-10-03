@@ -118,7 +118,7 @@ body {
 .carousel {
     position: relative;
     width: 100%; /* Garante que o carrossel ocupe a largura do container */
-    max-width: 800px; /* Limita a largura máxima */
+    max-width: 1920px; /* Limita a largura máxima */
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
