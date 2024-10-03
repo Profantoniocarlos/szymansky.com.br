@@ -19,7 +19,7 @@ body {
 /* Estilos da barra de navegação */
 .navbar {
     width: 100%; /* Garante que a navbar ocupe a largura total */
-    max-width: 1200px; /* Opcional, define uma largura máxima para a navbar */
+    max-width: 1920px; /* Opcional, define uma largura máxima para a navbar */
     display: flex;
     justify-content: space-between;
     align-items: center;
