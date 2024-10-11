@@ -149,10 +149,18 @@ body {
 }
 
 /* Banner */
-.banner1{
-    max-width: 100%;
-    height: auto;
-    display: block; /* Remove espaços em branco abaixo da imagem */
+ /* Certifique-se de que o contêiner seja responsivo */
+ .image-container {
+    width: 100%;  /* O contêiner ocupará 100% da largura disponível */
+    max-width: 600px; /* Largura máxima opcional */
+    margin: 0 auto;   /* Centraliza o contêiner */
+}
+
+/* Faz a imagem ser responsiva */
+.banner1 {
+    width: 100%;   /* A imagem ocupará 100% da largura do contêiner */
+    height: auto;  /* Mantém a proporção da imagem */
+    display: block; /* Remove qualquer espaçamento ao redor da imagem */
 }
 
 /* rodape */
