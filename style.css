@@ -150,8 +150,10 @@ body {
 
 /* Banner */
 .banner1{
-    display: flex;
-    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove espaços em branco abaixo da imagem */
+}
 
 /* rodape */
 
