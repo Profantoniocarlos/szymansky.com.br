@@ -152,7 +152,7 @@ body {
  /* Certifique-se de que o contêiner seja responsivo */
  .image-container {
     width: 100%;  /* O contêiner ocupará 100% da largura disponível */
-    max-width: 600px; /* Largura máxima opcional */
+    max-width: 1080px; /* Largura máxima opcional */
     margin: 0 auto;   /* Centraliza o contêiner */
 }
 
